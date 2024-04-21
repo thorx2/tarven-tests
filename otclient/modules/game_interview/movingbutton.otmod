@@ -1,0 +1,9 @@
+Module
+  name: game_movingbutton
+  description: Moving button within a window and nothing else
+  author: gp
+  website: https://github.com/edubart/otclient
+  sandboxed: true
+  scripts: [ movingbutton ]
+  @onLoad: init()
+  @onUnload: terminate()

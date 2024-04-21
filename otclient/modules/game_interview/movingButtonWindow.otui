@@ -1,0 +1,14 @@
+MovingButtonWindow < MainWindow
+  icon: /images/topbuttons/healthinfo
+  id: movingButtonWindow
+  !text: 'Moving Button Challenge'
+  size: 500 400
+  @onClose: modules.game_movingbutton.onMiniWindowClose()
+  @onEscape: modules.game_movingbutton.onMiniWindowClose()
+
+  Button
+    id: okButton
+    !text: 'Be fast'
+    width: 60
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
