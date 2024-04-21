@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "dependencies": [
+    "boost-thread",
+    "boost-iostreams",
+    "boost-asio",
+    "boost-system",
+    "boost-variant",
+    "boost-lockfree",
+    "boost-filesystem",
+    "boost-uuid",
+    "physfs",
+    "openal-soft",
+    "opengl",
+    "zlib",
+    "libvorbis",
+    "libogg",
+    "glew",
+    "luajit",
+    "openssl"
+  ],
+  "builtin-baseline": "215a2535590f1f63788ac9bd2ed58ad15e6afdff"
+}

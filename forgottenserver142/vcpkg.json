@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "dependencies": [
+    "boost-iostreams",
+    "boost-asio",
+    "boost-system",
+    "boost-variant",
+    "boost-filesystem",
+    "boost-lockfree",
+    "boost-locale",
+    "luajit",
+    "libmariadb",
+    "pugixml",
+    "cryptopp",
+    "fmt"
+  ],
+  "overrides": [{ "name": "fmt", "version": "9.1.0" }]
+}
